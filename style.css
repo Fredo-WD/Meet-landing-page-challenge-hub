@@ -132,7 +132,7 @@ header {
     gap: 1.5rem;
 }
 
-.description > h3 {
+.cyan {
     font-weight: 900;
     color: var(--Dark-moderate-cyan);
 }
@@ -321,11 +321,16 @@ footer {
     }
 
     .intro__heading {
-        width: 40%;
+        width: 60%;
+        font-size: 4rem;
+        line-height: 4rem;
     }
 
     .intro__text {
         width: 65%;
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+        font-weight: 700;
     }
 
     .intro__btns {
