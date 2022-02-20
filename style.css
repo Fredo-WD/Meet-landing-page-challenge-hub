@@ -302,13 +302,19 @@ footer {
 @media all and (min-width:1440px) {
     body {
         background-image: url(./starter-code/assets/desktop/image-hero-left.png), url(./starter-code/assets/desktop/image-hero-right.png);
-        background-position: top 90px left , top 138px right ;
+        background-position: top 180px left -15px , top 237px right -15px ;
         background-repeat: no-repeat;
-        width: 100%;
+        width: 100vw;
+        height: 100vh;
     }
 
-  
+    header {
+        margin-top: 2rem;
+    }
 
+    .intro {
+        margin-top: 3rem;
+    }
 
     .intro__avatars {
         display: none;
